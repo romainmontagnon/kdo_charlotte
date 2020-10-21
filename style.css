@@ -1,0 +1,57 @@
+body{
+    background: #74391b;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1rem;
+}
+#presentation, footer{
+    background: #fcb24b;
+    margin: 2rem 1rem;
+    padding: 0.5rem;
+    border-radius: 4rem;
+    box-sizing: content-box;
+    width: fit-content;
+}
+
+#presentation > p{
+    font-weight: 400;
+    text-align: justify;
+}
+
+#presentation > h1{
+    text-align: center;
+}
+
+#presentation > h1:after {
+    display: block;
+    content: "";
+    height: 0.25rem;
+    background: #74391b;
+    margin: 1rem auto;
+    position: relative;
+    width: 10rem;
+    max-width: 100%;
+    }
+
+h2{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 1rem 0.5rem;
+}
+
+h3{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+p{
+    margin: 1rem 1rem;
+}
