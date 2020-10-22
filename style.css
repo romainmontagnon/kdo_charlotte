@@ -4,7 +4,7 @@ body{
     font-weight: 300;
     font-size: 1rem;
 }
-
+   
 main{
     display: flex;
     flex-direction: column;
@@ -30,7 +30,7 @@ main{
     text-align: center;
 }
 
-#presentation > h1:after {
+#presentation > h1:after{
     display: block;
     content: "";
     height: 0.25rem;
@@ -39,7 +39,12 @@ main{
     position: relative;
     width: 10rem;
     max-width: 100%;
-    }
+}
+
+.no_transform{
+    text-decoration: none;
+    color: #000;
+}
 
 h2{
     font-size: 1.2rem;
